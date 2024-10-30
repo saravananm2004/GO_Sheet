@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/mainrelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/btnread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#00BCD4"
+            android:padding="5dp"
+            android:text="Read From Google Drive"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+
+    <Button
+        android:id="@+id/btnwrite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnread"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="341dp"
+        android:background="#00BCD4"
+        android:padding="5dp"
+        android:text="Write in to Google Drive"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>
+
